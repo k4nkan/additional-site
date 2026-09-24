@@ -40,9 +40,22 @@
           <a href="#about">募集要項</a>
           <a href="#gallery">過去受賞作品</a>
           <a href="#top" class="btn">応募する</a>
+          <button class="icon-button menu-button" type="button" aria-label="メニューを開く" aria-controls="menu" aria-haspopup="dialog">
+            <img src="./img/menu.svg" width="24" height="24" alt="" />
+          </button>
         </nav>
       </div>
     </header>
+
+    <dialog id="menu" aria-label="メニュー">
+      <form method="dialog">
+        <button class="icon-button" type="submit" aria-label="メニューを閉じる">
+          <img src="./img/close.svg" width="24" height="24" alt="" />
+        </button>
+      </form>
+      <a href="#about">募集要項</a>
+      <a href="#gallery">過去受賞作品</a>
+    </dialog>
 
     <main>
       <section class="hero">
